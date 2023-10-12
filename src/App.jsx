@@ -1,7 +1,16 @@
+ function Para() {
+  return (
+    <p>Live happily</p>
+  )
+}
+
 function App() {
 
   return (
-    <p>Hello World!</p>
+    <div>
+    <h1>Hello World!</h1>
+    <Para />
+    </div>
   )
 }
 
